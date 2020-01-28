@@ -3,7 +3,7 @@ class Cat
   attr_reader :name 
   attr_writer :name
   attr_accessor :meow
-  def call
+  def meow
     @meow = "meow!"
     puts @meow
   end
